@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Electronic Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    /* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header Styling */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo h1 {
+    margin-left: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #5C6BC0;
+    color: #fff;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.25rem;
+}
+
+/* Products Section */
+.products {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 20px;
+    background-color: #fff;
+}
+
+.product-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.product-item:hover {
+    transform: scale(1.05);
+}
+
+.product-item img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.product-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.product-item p {
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
+
+.product-item span {
+    font-size: 1.25rem;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.product-item button {
+    background-color: #5C6BC0;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.product-item button:hover {
+    background-color: #3E4A89;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+</style>
+<body>
+    <header>
+        <div class="logo">
+            <h1>ElectroShop</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>Welcome to ElectroShop</h2>
+        <p>Your one-stop shop for all electronic gadgets!</p>
+    </section>
+
+    <section class="products">
+        <h2>Our Products</h2>
+        <div class="product-item">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiQrqGNNTR7xwgo2dIb0enMOFgw_5N3X26dA&s" alt="Laptop">
+            <h3>Laptop</h3>
+            <p>High-performance laptop for work and play.</p>
+            <span>$999</span>
+            <button>Buy Now</button>
+        </div>
+        <div class="product-item">
+            <img src="https://ikall.in/wp-content/uploads/2023/06/51sJmHfw92L._SL1000_.jpg" alt="Smartphone">
+            <h3>Smartphone</h3>
+            <p>Latest model with great features.</p>
+            <span>$699</span>
+            <button>Buy Now</button>
+        </div>
+        <div class="product-item">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeZ4ir9_3fx7L8Ew2TUx3WanTGMfm2kUkPAA&s" alt="Headphones">
+            <h3>Headphones</h3>
+            <p>Noise-canceling over-ear headphones.</p>
+            <span>$199</span>
+            <button>Buy Now</button>
+        </div>
+    </section>
+
+    <footer>
+        <p>Thank you visit again.</p>
+    </footer>
+</body>
+</html>
